@@ -17,7 +17,7 @@ double principal = 0;
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Simple Interest'),
+        title: const Text('SimpleInterest'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8),
@@ -62,7 +62,7 @@ double principal = 0;
             const SizedBox(
               height: 8,
             ),
-            Text('SimpleInterest : $SimpleInterest',
+            Text('Simple Interest : $SimpleInterest',
                 style: const TextStyle(
                   fontSize: 20,
                 )),
