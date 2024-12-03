@@ -1,5 +1,5 @@
 
-import 'package:first_app/view/dashboard.dart';
+import 'package:first_app/view/student_details_view.dart';
 import 'package:flutter/material.dart';
 
 
@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Dashboard(),
+      home: StudentDetailsView(),
+      
       
     );
   }

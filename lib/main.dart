@@ -1,5 +1,6 @@
 
-import 'package:first_app/app.dart';
+import 'package:first_app/view/student_details_view.dart';
+import 'package:first_app/view/student_output_view.dart';
 import 'package:flutter/material.dart';
 
 // final
@@ -8,6 +9,12 @@ import 'package:flutter/material.dart';
 // HOT RELOAD
 void main() {
   runApp(
-    const MyApp(),
+    MaterialApp(
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const StudentDetailsView(),
+        '/output': (context) => const StudentOutputView(),
+      },
+    ),
   );
 }
